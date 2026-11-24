@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+.pnp/
+.pnp.js
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Environment & secrets
+.env
+.env.local
+.env.*.local
+backend/.env
+frontend/.env
+!.env.example
+!backend/.env.example
+!frontend/.env.example
+
+# Build output
+dist/
+build/
+*.egg-info/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+coverage/
+
+# Uploaded media (kept out of git; directories are tracked via .gitkeep)
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Editors / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
